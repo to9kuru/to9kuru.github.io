@@ -31,15 +31,15 @@ function postContent() {
             <div class="post-content">${postContent}</div>
             <div class="post-actions">
                 <div>
-                    <img src="heart.svg" alt="Like">
+                    <img src="to9kuru.github.io/heart.svg" alt="Like">
                     <span class="like-count">0</span>
                 </div>
                 <div>
-                    <img src="repeat-2.svg" alt="Retweet">
+                    <img src="to9kuru.github.io/repeat-2.svg" alt="Retweet">
                     <span class="retweet-count">0</span>
                 </div>
                 <div>
-                    <img src="bar-chart-2.svg" alt="Impressions">
+                    <img src="to9kuru.github.io/bar-chart-2.svg" alt="Impressions">
                     <span class="impressions-count">0</span>
                 </div>
             </div>
