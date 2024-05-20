@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter承認欲求満たし</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button class="close-btn">✕</button>
+            <span class="draft">下書き</span>
+        </div>
+        <div class="content">
+            <div class="user">
+                <div class="user-icon">😃</div>
+                <div class="user-options">
+                    <button class="dropdown-btn">全員 ▼</button>
+                </div>
+            </div>
+            <div class="input-area">
+                <textarea id="postContent" placeholder="いまどうしてる？"></textarea>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="reply-info">全員が返信できます</span>
+            
+            <button class="post-btn" onclick="postContent()">ポストする</button>
+        </div>
+    </div>
+
+    <div id="postsContainer" class="posts-container">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
